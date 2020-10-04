@@ -1,8 +1,11 @@
-#Music player by Khushhal Reddy
-
 from playsound import playsound
 
-playsound("file1.mp3")
+print("Select Track")
+print("1) Track 1")
+print("2) Track 2")
 
-
-
+c = int(input("Enter Your choice))
+if c==1:
+    playsound("file1.mp3")
+else:
+    playsound("file2.mpeg")
